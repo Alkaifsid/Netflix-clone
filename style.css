@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:black;
+}
+
+
+.main{
+    height: 80vh;
+    background-image: url("assets/img/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.main .box{
+
+height: 80vh;
+width: 100%;
+opacity: 0.44;
+position: absolute;
+top: 0;
+background-color:black;
+
+}
+
+nav{
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+
+
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+font-family: 'Martel Sans', sans-serif;
+    align-items: center;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding:  0px 23px;
+    
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 28px ;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+    v
+}
+
+.seperation {
+    height: 50 px;
+}
